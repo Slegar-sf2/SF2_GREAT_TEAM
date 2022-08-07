@@ -50,7 +50,7 @@ GetAllyAnimation:
         ; Check if dodge animation type
         cmpi.w  #1,d1
         bne.s   @Default
-        moveq   #ALLYBATTLEANIMATION_DODGES_START,d1
+        move.w   #ALLYBATTLEANIMATION_DODGES_START,d1
         bra.s   @GetAnimationIndex
         
 @Default:

@@ -66,19 +66,19 @@ CreateBattlesceneAnimation:
                 ; Determine attack animation
                 move.b  (a4),d0
                 jsr     GetClass        
-                moveq   #ALLYBATTLEANIMATION_SPECIAL_MMNK,d5 ; HARDCODED class and battle animation indexes
+                move.w   #ALLYBATTLEANIMATION_SPECIAL_MMNK,d5 ; HARDCODED class and battle animation indexes
                 cmpi.w  #CLASS_MMNK,d1  ; MMNK
                 beq.w   @DetermineSpecialCritical
-                moveq   #ALLYBATTLEANIMATION_SPECIAL_RBT,d5
+                move.w   #ALLYBATTLEANIMATION_SPECIAL_RBT,d5
                 cmpi.w  #CLASS_RBT,d1   ; RBT
                 beq.w   @DetermineSpecialCritical
-                moveq   #ALLYBATTLEANIMATION_SPECIAL_BRGN,d5
+                move.w   #ALLYBATTLEANIMATION_SPECIAL_BRGN,d5
                 cmpi.w  #CLASS_BRGN,d1  ; BRGN
                 bne.s   @RegularAttackAnimation
                 jsr     GetEquippedWeapon
                 cmpi.w  #$FFFF,d1
                 bne.s   @RegularAttackAnimation
-                moveq   #ALLYBATTLEANIMATION_SPECIAL_BRGN,d5
+                move.w   #ALLYBATTLEANIMATION_SPECIAL_BRGN,d5
                 moveq   #SPELLANIMATION_NONE,d4
                 beq.w   @AnimateSprite
 @RegularAttackAnimation:
@@ -105,19 +105,19 @@ CreateBattlesceneAnimation:
                 ; Determine spellcasting animation
                 move.b  (a4),d0
                 jsr     GetClass        
-                moveq   #ALLYBATTLEANIMATION_SPECIAL_MNST,d5
+                move.w   #ALLYBATTLEANIMATION_SPECIAL_MNST,d5
                 cmpi.w  #CLASS_MNST,d1  ; MNST
                 beq.w   @AnimateSprite
                 jsr     GetEnemyIndex   
-                moveq   #ENEMYBATTLEANIMATION_SPECIAL_HELL_HOUND,d5
+                move.w   #ENEMYBATTLEANIMATION_SPECIAL_HELL_HOUND,d5
                 cmpi.w  #ENEMY_HELL_HOUND,d1 ; HARDCODED enemy indexes
                 beq.w   @AnimateSprite
                 cmpi.w  #ENEMY_CERBERUS,d1
                 beq.w   @AnimateSprite
-                moveq   #ENEMYBATTLEANIMATION_SPECIAL_DEVIL_GRIFFIN,d5
+                move.w   #ENEMYBATTLEANIMATION_SPECIAL_DEVIL_GRIFFIN,d5
                 cmpi.w  #ENEMY_DEVIL_GRIFFIN,d1
                 beq.w   @AnimateSprite
-                moveq   #ENEMYBATTLEANIMATION_SPECIAL_ODD_EYE,d5
+                move.w   #ENEMYBATTLEANIMATION_SPECIAL_ODD_EYE,d5
                 cmpi.w  #ENEMY_ODD_EYE,d1
                 beq.w   @AnimateSprite
                 moveq   #BATTLEANIMATION_ATTACK,d5
