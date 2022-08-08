@@ -34,16 +34,16 @@ pt_AllyBattleSprites:
                 dc.l AllyBattleSprite29
                 dc.l AllyBattleSprite30
                 dc.l AllyBattleSprite31
-		        dc.l AllyBattleSprite32
-		        dc.l AllyBattleSprite33
+		dc.l AllyBattleSprite32
+		dc.l AllyBattleSprite33
                 dc.l AllyBattleSprite34
                 dc.l AllyBattleSprite35
                 dc.l AllyBattleSprite36
                 dc.l AllyBattleSprite37
                 dc.l AllyBattleSprite38
-		        dc.l AllyBattleSprite39
-		        dc.l AllyBattleSprite40
-		        dc.l AllyBattleSprite41
+		dc.l AllyBattleSprite39
+		dc.l AllyBattleSprite40
+		dc.l AllyBattleSprite41
                 dc.l AllyBattleSprite42
                 dc.l AllyBattleSprite43
                 dc.l AllyBattleSprite44
@@ -74,7 +74,7 @@ pt_AllyBattleSprites:
                 dc.l AllyBattleSprite69
                 dc.l AllyBattleSprite70
                 dc.l AllyBattleSprite71
-		        dc.l AllyBattleSprite72
+		dc.l AllyBattleSprite72
                 dc.l AllyBattleSprite73
                 dc.l AllyBattleSprite74
                 dc.l AllyBattleSprite75
