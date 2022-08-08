@@ -89,11 +89,11 @@ pt_AllyAnimations:
                 dc.l AllyAnimation084
                 dc.l AllyAnimation085
                 dc.l AllyAnimation086
-		        dc.l AllyAnimation087
+		dc.l AllyAnimation087
                 dc.l AllyAnimation088
                 dc.l AllyAnimation089
                 dc.l AllyAnimation090
-		        dc.l AllyAnimation091
+		dc.l AllyAnimation091
                 dc.l AllyAnimation092
                 dc.l AllyAnimation093
                 dc.l AllyAnimation094
@@ -113,7 +113,7 @@ pt_AllyAnimations:
                 dc.l AllyAnimation108
                 dc.l AllyAnimation109
                 dc.l AllyAnimation110
-		        dc.l AllyAnimation111
+		dc.l AllyAnimation111
                 dc.l AllyAnimation112
                 dc.l AllyAnimation113
                 dc.l AllyAnimation114
