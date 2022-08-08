@@ -132,7 +132,7 @@ pt_EnemyAnimations:
                 dc.l EnemyAnimation127
                 dc.l EnemyAnimation128
                 dc.l EnemyAnimation129
-		        dc.l EnemyAnimation130
+		dc.l EnemyAnimation130
                 dc.l EnemyAnimation131
                 dc.l EnemyAnimation132
                 dc.l EnemyAnimation133
@@ -223,7 +223,7 @@ pt_EnemyAnimations:
                 dc.l EnemyAnimation218
                 dc.l EnemyAnimation219
                 dc.l EnemyAnimation220
-		        dc.l EnemyAnimation221
+		dc.l EnemyAnimation221
                 dc.l EnemyAnimation222
                 dc.l EnemyAnimation223
                 dc.l EnemyAnimation224
